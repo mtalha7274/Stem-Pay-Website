@@ -272,27 +272,52 @@
   
   
   /* — About Section — */
-  .about-inner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    align-items: center;
-  }
-  .about-text ul {
-    list-style: none;
-    margin-bottom: 1.5rem;
-  }
-  .about-text li {
-    font-size: 1rem;
-    margin-bottom: 0.75rem;
-  }
-  .about-text li strong {
-    color: #8E24AA;
-  }
-  .about-image img {
-    max-width: 350px; /* Bigger about image */
-    border-radius: 12px; /* Rounded about logo */
-  }
+.about-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-text .contract-link {
+  color: #673AB7;
+  background: #f4f1ff;
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  display: inline-block;
+  word-break: break-all; /* In case address is long on mobile */
+  transition: background 0.3s, color 0.3s;
+}
+
+.about-text .contract-link:hover {
+  background: #e0d7ff;
+  color: #5e35b1;
+  text-decoration: none;
+}
+
+.about-text .wallet-steps {
+  list-style: disc inside;
+  margin-top: 0.5rem;
+}
+
+.about-text .wallet-steps li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.about-image {
+  display: flex;
+  justify-content: start;
+}
+
+.about-image img {
+  max-width: 350px; /* Bigger about image */
+  border-radius: 50px; /* Rounded about logo */
+}
+
+
+  
   
   /* — Contact Section — */
 .contact-section { background:#f0f4f8; padding:6rem 0; }
@@ -359,7 +384,7 @@
   .socials a {
     color: #fff;
     margin-right: 1rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     transition: color 0.3s;
   }
   .socials a:hover {
