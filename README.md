@@ -6,20 +6,6 @@
 
 [![Version](https://img.shields.io/badge/version-1.0.0-purple.svg)](#)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](#)
-[![Polygon](https://img.shields.io/badge/Network-Polygon-hard-purple.svg)](#)
-
----
-
-## 📖 Table of Contents
-- [🚀 Introduction](#-introduction)
-- [✨ Features](#-features)
-- [📦 Installation](#-installation)
-- [⚙️ Usage](#️-usage)
-- [📁 File Structure](#-file-structure)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [🤝 Contributing](#️-contributing)
-- [📄 License](#-license)
-- [📞 Contact](#-contact)
 
 ---
 
@@ -130,11 +116,6 @@ Read our [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md) and [CONTRIBUTING](./CONTRIBUTI
 This project is licensed under **MIT**. See [LICENSE](./LICENSE) for details.
 
 ---
-
-## 📞 Contact
-
-- GitHub: [your-org](https://github.com/your-org)
-- Email: [support@stem-pay.example.com](mailto:support@stem-pay.example.com)
 
 
 ---
