@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terms of Use – STEM Pay</title>
+  <!-- Favicon -->
+  <link rel="icon" href="https://i.postimg.cc/85xCfX2J/STEMMER-ICON-3.png" type="image/png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-pIV6S+vv0b1n5fXvI0Qb+uZz+T0bzO1L6A1j2tZc+8XjPV5OI1OZHKvTz6vGSjYQvlYGqjG6z+WlF3e91o2+gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Global Styles -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Page-specific CSS -->
+  <style>
+    .terms-section {
+      padding: 4rem 0;
+      background: #fff;
+    }
+    .terms-container {
+      max-width: 800px;
+      margin: 0 auto;
+      color: #444;
+      line-height: 1.7;
+    }
+    .terms-container .section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2rem;
+      color: #673AB7;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .terms-container p {
+      margin-bottom: 1.5rem;
+    }
+    .terms-container p strong {
+      color: #8E24AA;
+    }
+    .terms-container .last-updated {
+      font-size: 0.9rem;
+      color: #666;
+      text-align: right;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="sticky-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img class="logo-img" src="https://i.postimg.cc/85xCfX2J/STEMMER-ICON-3.png" alt="STEM Pay Logo">
+        <span>STEM Pay</span>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-use.html" class="btn-outline">Terms of Use</a>
+      </nav>
+      <div class="mobile-menu-toggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </header>
+
+  <!-- TERMS OF USE -->
+  <section class="terms-section" data-aos="fade-up">
+    <div class="container terms-container">
+      <h1 class="section-title">Terms of Use</h1>
+
+      <p><strong>1. Lottery Participation:</strong> You may purchase and hold STEM tokens to enter the on-chain lottery. All entries must occur through Polygon network transactions.</p>
+
+      <p><strong>2. Winners &amp; Prizes:</strong> Winners receive STEM tokens convertible to USDT. The standard payout is 10% of the total pool, though STEM Pay reserves the right to adjust this percentage at any time.</p>
+
+      <p><strong>3. Refunds &amp; Fees:</strong> Entry fees are non-refundable. Non-winning participants automatically receive their 1 STEM ticket back.</p>
+
+      <p><strong>4. Liability &amp; Costs:</strong> STEM Pay is not liable for user-side fraud, hacking, or loss of private keys. Participants are responsible for all gas and transaction fees.</p>
+
+      <p><strong>5. Token Expiry:</strong> STEM Pay may, at its sole discretion, impose an expiry date on unredeemed tokens under specific circumstances.</p>
+
+      <p><strong>6. Currency Exchanges:</strong> STEM Pay does not facilitate direct fiat purchases or sales. All token swaps occur via on-chain USDT/STEM pairings.</p>
+
+      <p><strong>7. Modifications:</strong> We reserve the right to modify or discontinue any part of the platform, including the lottery mechanism, at any time without prior notice.</p>
+
+      <p class="last-updated"><em>Last updated: April 28, 2025</em></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" data-aos="fade-in">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>STEM Pay</h4>
+        <p>Next-gen decentralized lottery platform on Polygon. Fair, transparent, and fun.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-use.html">Terms of Use</a></li>
+        </ul>
+      </div>
+      <div class="footer-col socials-col">
+        <h4>Follow Us</h4>
+        <div class="socials">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-discord"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2025 STEM Pay. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 600, once: true });</script>
+  <script>
+    const toggle = document.querySelector('.mobile-menu-toggle');
+    const nav = document.querySelector('header nav');
+    toggle.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
+
